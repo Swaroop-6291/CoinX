@@ -1,0 +1,9 @@
+#navbar{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    border: 0px 0px 1px 0px;
+    opacity: 0px;
+    border-bottom: 1px solid #D3E0E6;
+    padding: 10px 10px;
+}

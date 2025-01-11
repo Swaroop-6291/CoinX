@@ -1,0 +1,123 @@
+.home {
+    background-color: #EFF2F5;
+    padding: 0.5px 60px 0.5px 60px;
+    display: flex;
+    flex-direction: column;
+    
+    gap: 24px;
+    padding-top: 24px;
+  }
+  
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  
+  .container > #left {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    gap: 20px;
+    width: min(881px, 95%);
+    min-height: 2,287px;
+    opacity: 0px;
+  }
+  
+
+  .container > #right {
+    width: min(427px, 95%);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    min-height: 1,923px;
+    padding: 0px 0px 100px 0px;
+    opacity: 0px;
+  }
+  
+  
+  #first {
+    background-color: #FFFFFF;
+    padding: 24px 33px 33px 24px;
+    gap: 10px;
+    border-radius: 8px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  @media (max-width: 1024px) {
+    
+    .home {
+      padding: 16px; 
+    }
+  
+    .container {
+      gap: 16px;
+    }
+  
+    
+    .container > #left {
+      width: 100%; 
+      padding-right: 16px;
+    }
+  
+   
+    .container > #right {
+      width: 100%; 
+      padding-right: 16px;
+    }
+  
+    #first {
+      padding: 16px; 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    
+    .home {
+      padding: 10px; 
+    }
+  
+    .container {
+      flex-direction: column; 
+      
+    }
+  
+    
+    .container > #left, .container > #right {
+      width: 100%; 
+    }
+  
+    #first {
+      padding: 12px; 
+    }
+  }
+  
+ 
+  @media (max-width: 480px) {
+    .home {
+      padding: 8px; 
+    }
+  
+   
+    h1 {
+      font-size: 20px;
+      text-align: center;
+    }
+  
+    
+    .container {
+      gap: 12px;
+    }
+  
+    
+    #first {
+      padding: 10px; 
+    }
+  }
+  

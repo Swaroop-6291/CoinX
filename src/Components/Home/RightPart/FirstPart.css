@@ -1,0 +1,23 @@
+.first{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 515px;
+    padding: 35px 35px 35px 35px;
+    gap: 19px;
+    border-radius: 8px;
+    opacity: 0px;
+    background-color: #0052FE;
+}
+.first > button{
+    width: 237px;
+    height: 48px;
+    top: 417.22px;
+    left: 94.5px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+    border: none;
+    background-color: #FFFFFF;
+}

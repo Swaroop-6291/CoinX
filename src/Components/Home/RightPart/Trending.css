@@ -1,0 +1,30 @@
+.trending{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+padding: 24px;
+gap: 24px;
+border-radius: 8px;
+opacity: 0px;
+
+}
+.coin-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.trending > .coin-list > #item > .coinItem{
+    display: flex;   
+    gap: 5px;
+    align-items: center;
+}
+.trending > .coin-list > #item > .coinItem > .image {
+    width: 32px;                  
+  height: 32px;                
+  border-radius: 50%; 
+}
+.trending > .coin-list > #item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

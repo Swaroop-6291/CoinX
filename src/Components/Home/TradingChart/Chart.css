@@ -1,0 +1,9 @@
+.chart{
+    width: 90%;
+    min-height: 711px;
+    
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+    background-color: white;    
+}

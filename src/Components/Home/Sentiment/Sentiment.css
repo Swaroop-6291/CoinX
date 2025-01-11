@@ -1,0 +1,60 @@
+.sentiment {
+    background-color: #fff;
+    padding: 24px;
+    gap: 24px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box; 
+    max-width: 100%; 
+    overflow: hidden;
+}
+
+.sentiment > h1, 
+.sentiment > h3 {
+    margin-bottom: 16px;
+    font-size: 24px;
+    word-break: break-word; 
+}
+
+.event {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 16px; 
+    justify-content: space-between;
+}
+
+.event > * {
+    flex: 1 1 calc(50% - 16px); 
+    max-width: calc(50% - 16px);
+    box-sizing: border-box; 
+}
+
+
+@media (max-width: 768px) {
+    .sentiment {
+        padding: 16px; 
+    }
+
+    .sentiment > h1, 
+    .sentiment > h3 {
+        font-size: 20px; 
+    }
+
+    .event > * {
+        flex: 1 1 100%; 
+        max-width: 100%; 
+    }
+}
+
+
+@media (max-width: 480px) {
+    .sentiment {
+        padding: 12px; 
+    }
+
+    .sentiment > h1, 
+    .sentiment > h3 {
+        font-size: 18px; 
+    }
+}

@@ -1,0 +1,58 @@
+.tokenomics {
+    background-color: white;
+    padding: 24px;
+    gap: 24px;
+    border-radius: 8px;
+    box-sizing: border-box; 
+    max-width: 100%; 
+    overflow: hidden;
+}
+
+.tokenomics h2, 
+.tokenomics h5 {
+    margin-bottom: 16px;
+    font-size: 24px;
+    word-break: break-word; 
+}
+
+
+.tokenomics img {
+    width: 100%;
+    height: auto; 
+    border-radius: 8px;
+    object-fit: cover; 
+}
+
+
+@media (max-width: 768px) {
+    .tokenomics {
+        padding: 16px;
+    }
+
+    .tokenomics h2, 
+    .tokenomics h5 {
+        font-size: 20px; 
+    }
+
+    .tokenomics img {
+        max-width: 100%; 
+        height: auto;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .tokenomics {
+        padding: 12px; 
+    }
+
+    .tokenomics h2, 
+    .tokenomics h5 {
+        font-size: 18px;
+    }
+
+    .tokenomics img {
+        max-width: 100%;
+        height: auto;
+    }
+}

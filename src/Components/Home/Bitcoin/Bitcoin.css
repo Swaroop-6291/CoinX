@@ -1,0 +1,103 @@
+
+.bitcoin1 > .top {
+    display: flex;               
+  align-items: center;          /* Vertically center the items */
+  
+  padding: 10px;                /* Optional: Add some padding */
+  gap: 20px;       
+  }
+  
+.bitcoin1> .top >  #first {
+    padding:5px;
+    padding-left: 0px;
+    display: flex;                
+    flex-direction: row;
+  align-items: center;          
+  gap: 10px;    
+  }
+#second{
+    display: flex;
+    padding: 10px;
+    padding-left: 0px;
+}
+
+  
+
+  
+.bitcoin1 .top > #first > img {
+    width: 32px;                 
+  height: 32px;                 
+  border-radius: 50%; 
+  }
+  
+.bitcoin1  .top > div {
+    font-size: 16px;    
+}
+
+.bitcoin1 .top > #first > #name{
+    font-family: Inter;
+font-size: 24px;
+font-weight: 600;
+line-height: 28.8px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+ color: #0B1426;
+}
+
+ #symbol{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 200;
+    line-height: 19.2px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #5D667B;
+}
+.bitcoin1  #second {
+    display: flex;
+    align-items: center;
+}
+#rank{
+    background-color:  #808A9D;
+    gap: 0px;
+                    
+          
+    border-radius: 8px ;
+    border: 1px ;
+    opacity: 0px;
+    padding: 12px;
+    color: white;
+    font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 20.16px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+ #price {
+    font-family: Inter;
+font-size: 28px;
+font-weight: 600;
+line-height: 38.4px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+ #third {
+    font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 27px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+padding: 10px;
+    padding-left: 0px;
+}
