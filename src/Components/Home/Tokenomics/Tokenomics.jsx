@@ -1,5 +1,5 @@
 import React from 'react'
-import './tokenomics.css'
+import './Tokenomics.css'
 import Image1 from './Image1'
 
 const Tokenomics = () => {
